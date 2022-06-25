@@ -1,0 +1,124 @@
+.home{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    margin-left: 3rem;
+    overflow-y: scroll;
+    width: 80%;
+    /* position: relative; */
+    margin-left: 15%;
+}
+.wrapper{
+    width: 60%;
+}
+.read  button{
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+.read button a{
+    text-decoration: none;
+    color: #8ab4f8;
+    font-size: 0.88rem;
+    font-weight: 600;
+}
+.description{
+    font-size: 14px;
+    margin: 7px;
+    font-weight: bold;
+}
+.source{
+    font-size: 13px;
+    color: #999;
+    margin-top: 6px;
+}
+.image{
+    width: 200px;
+    height: 100px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    /* position: relative; */
+
+    border-radius:10px ;
+}
+.container{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    border: 2px solid #5f6368;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+}
+.headline{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.read button a:hover{
+    text-decoration: underline;
+
+}
+.linkimg{
+    margin-right: 4px;
+    height: 16px;
+}
+.content{
+    margin-right: 20xp;
+}
+.m-5{
+    margin-bottom: 20px;
+}
+.head{
+    font-size: 21px;
+font-weight: 700;
+}
+
+#mobile-view{
+    display: none;
+}
+
+@media(max-width:1000px)
+{
+    #laptop-view{
+        display: none;
+    }
+    #mobile-view{
+        display: block;
+    }
+    .home {
+        /* display: flex; */
+        justify-content: center;
+        /* margin: 3rem; */
+        /* margin-left: 3rem; */
+        overflow-y: scroll;
+        width: 100%;
+        /* position: relative; */
+        /* margin-left: 15%; */
+      }
+      .wrapper{
+        width: 80%;
+      }
+      .container {
+        margin-top: 13px;
+        margin-bottom: 13px;
+        border: 2px solid #5f6368;
+        border-radius: 10px;
+        padding: 12px;
+        display: block;
+      }
+      .image{
+        width: 100%;
+        height: 100%;
+      }
+}
+@media(max-width:450px)
+{
+    .wrapper{
+        width: 100%;
+    }
+}
