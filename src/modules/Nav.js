@@ -37,7 +37,7 @@ export default function Nav(props) {
             NEWSBASE
         </div>
         <form className="searchfield">
-          <Link to='/q' style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
+          <Link to='/NewsApp/q' style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
             <button className='search-btn' >
 
                   <img src="https://img.icons8.com/ecf0f1/search" alt="" srcset=""  onClick={handleClick}/>

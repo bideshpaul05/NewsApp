@@ -40,7 +40,7 @@ export default function Menubar(props) {
         <div className="topic">
           
 
-       <Link to="/covid" style={{textDecoration: 'none',display:'inherit', color:'inherit'}}> 
+       <Link to="/NewsApp/covid" style={{textDecoration: 'none',display:'inherit', color:'inherit'}}> 
       
           <div className="icon">
           <img src="https://img.icons8.com/ffffff/veterinary-medicine--v3.png"/>
@@ -52,7 +52,7 @@ export default function Menubar(props) {
         </Link>
         </div>
        <div className="topic">
-       <Link to="/"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
+       <Link to="/NewsApp/"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
           <div className="icon">
           <img src="https://img.icons8.com/ffffff/flag--v1.png"/>
           </div>
@@ -62,7 +62,7 @@ export default function Menubar(props) {
        </Link>
         </div>
         <div className="topic">
-       <Link to="/world"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
+       <Link to="/NewsApp/world"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
           <div className="icon">
           <img src="https://img.icons8.com/ffffff/globe-asia.png"/>
           </div>
@@ -72,7 +72,7 @@ export default function Menubar(props) {
        </Link>
         </div>
         <div className="topic">
-       <Link to="/buissness"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
+       <Link to="/NewsApp/buissness"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
           <div className="icon">
           <img src="https://img.icons8.com/ffffff/business.png"/>
           </div>
@@ -82,7 +82,7 @@ export default function Menubar(props) {
        </Link>
         </div>
         <div className="topic">
-       <Link to="/technology"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
+       <Link to="/NewsApp/technology"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
           <div className="icon">
           <img src="https://img.icons8.com/ffffff/video-stabilization.png"/>
           </div>
@@ -92,7 +92,7 @@ export default function Menubar(props) {
        </Link>
         </div>
         <div className="topic">
-       <Link to="/entertainment"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
+       <Link to="/NewsApp/entertainment"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
           <div className="icon">
           <img src="https://img.icons8.com/ffffff/netflix-desktop-app.png"/>
           </div>
@@ -102,7 +102,7 @@ export default function Menubar(props) {
        </Link>
         </div>
         <div className="topic">
-       <Link to="/sports"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
+       <Link to="/NewsApp/sports"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
           <div className="icon">
           <img src="https://img.icons8.com/ffffff/discus-throw.png"/>
           </div>
@@ -112,7 +112,7 @@ export default function Menubar(props) {
        </Link>
         </div>
         <div className="topic">
-       <Link to="/science"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
+       <Link to="/NewsApp/science"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
           <div className="icon">
           <img src="https://img.icons8.com/ffffff/flying-motarboard.png"/>
           </div>
@@ -122,7 +122,7 @@ export default function Menubar(props) {
        </Link>
         </div>
         <div className="topic">
-       <Link to="/health"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
+       <Link to="/NewsApp/health"style={{textDecoration: 'none',display:'inherit', color:'inherit'}}>
           <div className="icon">
           <img src="https://img.icons8.com/ffffff/heart-health.png"/>
           </div>
