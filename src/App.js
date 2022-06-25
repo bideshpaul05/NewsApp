@@ -5,7 +5,7 @@ import Menubar from './modules/Menubar';
 import React from 'react'
 import Home from './modules/Home'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Link,
